@@ -1,0 +1,21 @@
+section-container {
+    position: relative !important;
+   
+}
+.section-portfolio{
+    margin-top: 100px !important;
+}
+@media (max-width: 1000px) {
+    .section-portfolio {
+        margin-top: 670px !important;
+    }
+    
+}
+@media (max-width: 500px) {
+    .section-portfolio {
+        margin-top: 650px !important;
+    }
+    
+}
+
+@import './pages/MainPage.css';

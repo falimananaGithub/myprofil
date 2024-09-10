@@ -1,0 +1,9 @@
+body {
+    margin: 0; /* delete the default margin*/
+    padding: 0; /* delete the default padding */
+    font-family: Arial, sans-serif; /* define the font to Arial, sans-serief */
+    background-color: #f0f0f0; /* define background */
+    color: #333; /* define the default text color */
+    line-height: 1.6; /* text lisibility */
+}
+

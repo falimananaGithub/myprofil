@@ -1,0 +1,5 @@
+@import '../components/header/_header.css';
+@import '../components/navbar/_navbar.css';
+@import './home/home.css';
+@import './portfolio/portfolio.css';
+@import './contact/contact.css';
