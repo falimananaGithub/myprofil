@@ -7,13 +7,13 @@ import { FaHandPointRight } from "react-icons/fa";
 import dataCarousel from '../../components/data-carousel/data';
 //import HomeAnnimate from '../../components/annimations/HomeAnnimate';
 import AnotherAnimation from '../../components/annimations/AnotherAnimation';
+
 const Home = () => {
     const [index, setIndex] = useState(0);
-
     const handleSelect = (selectedIndex) => {
         setIndex(selectedIndex);
     };
-    console.log(Card);
+
     return (
         <section id="home" className='mt-5'>
             <Container>
@@ -44,7 +44,7 @@ const Home = () => {
                                 </Card.Body>
 
                                 <Card.Footer>
-                                    <div className='d-flex'><FaHandPointRight className='text-primary mt-1' /> &nbsp; &nbsp;<NavLink href="#" className='text-primary'> Télécharger mon CV ici </NavLink></div>
+                                    <div className='d-flex'><FaHandPointRight className='text-primary mt-1' /> &nbsp; &nbsp;<NavLink href={`${process.env.PUBLIC_URL}/files/mon_cv.pdf`} className='text-primary' download="cv.pdf"> Télécharger mon CV ici </NavLink></div>
                                 </Card.Footer>
                             </Card.Header>
                         </Card>

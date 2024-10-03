@@ -10,6 +10,7 @@ const NavBar = (props) => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
+<<<<<<< HEAD
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#portfolio">Portfolio</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
@@ -19,6 +20,17 @@ const NavBar = (props) => {
                             <NavDropdown.Item href="#action/3.3">Quelques choses</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+=======
+                        <Nav.Link href="#home">Accueil</Nav.Link>
+                        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <NavDropdown title="Autres menu" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="#action/3.1">Espace réservé</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="#action/3.3">Quelques choses</NavDropdown.Item>
+                            <NavDropdown.Divider />
+
+>>>>>>> origin/main
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>

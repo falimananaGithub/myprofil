@@ -2,7 +2,11 @@ import React from 'react';
 
 const AnotherAnimation = () => {
     return (
+<<<<<<< HEAD
         <div class="waviy text-center mt-5">
+=======
+        <div className="waviy text-center mt-5">
+>>>>>>> origin/main
             <span style={{ '--i': 1 }}>J</span>
             <span style={{ '--i': 2 }}>E</span>
             <span >&nbsp;</span>
