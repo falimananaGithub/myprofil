@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image, Row, Col, Container, Nav, Stack } from 'react-bootstrap';
 import { IoIosMail } from "react-icons/io";
+import { FaWhatsapp } from "react-icons/fa6";
 import { BsTelephoneFill } from "react-icons/bs";
 import { FaLocationDot } from "react-icons/fa6";
 const Footer = () => {
@@ -8,8 +9,8 @@ const Footer = () => {
         <footer>
             <Container fluid>
                 <Row className='bg-footer text-primary p-4'>
-                    <Col className='mx-5'>
-                        <Stack>
+                    <Col md={12} lg={2} className='mx-5'>
+                        <Stack className='margin-img-footer'>
                             <Image
                                 src='/images/me.png'
                                 alt=''
@@ -19,21 +20,29 @@ const Footer = () => {
                             <h2>Rabemananjara</h2>
                             <p>Falimanana Stéphan</p>
                         </Stack>
-                    </Col>
-                    <Col>
-                        <Nav className='flex-column fs-5'>
-                            <h4>Naviguez</h4>
-                            <Nav.Link href="#home" className='text-primary'>Home</Nav.Link>
-                            <Nav.Link href="#portfolio" className='text-primary'>Portfolio</Nav.Link>
-                            <Nav.Link href="#contact" className='text-primary'>Contact</Nav.Link>
-                        </Nav>
-                    </Col>
-                    <Col className='text-primary'>
-                        <h4>contactez moi!</h4>
-                        <div><strong><BsTelephoneFill /> :</strong> <label> +261 34 25 419 37</label></div>
                         <hr />
-                        <div> <strong ><IoIosMail /> : </strong><label> rabemananjarafalimananastephan@gmail.com</label></div>
+                    </Col>
+
+                    <Col md={12} lg={2} className=''>
+
+                        <div><Image src='/images/telma.png' width={30} height={30}></Image><label> +261 34 25 419 37</label></div>
                         <hr />
+                        <div><Image src='/images/airtel.png' width={30} height={30}></Image> <label> +261 33 73 490 71</label></div>
+                        <hr />
+                        <div><Image src='/images/orange.jpeg' width={30} height={30}></Image> <label> +261 32 92 129 96</label></div>
+                        <hr />
+                    </Col>
+                    <Col md={12} lg={4} className=''>
+                        <div> <strong  ><IoIosMail /> : </strong><label> rabemananjarafalimananastephan@gmail.com</label></div>
+                        <hr />
+                        <div> <strong ><IoIosMail /> : </strong><label> Stéphan Rabemananjara</label></div>
+                        <hr />
+                        <div> <strong ><FaWhatsapp /> : </strong><label> +261 34 25 419 37</label></div>
+                        <hr />
+
+                    </Col>
+                    <Col md={12} lg={2} className=''>
+
                         <div><strong><FaLocationDot /> : </strong><label> Cité Ambohipo bloc-34 </label></div>
 
                     </Col>
