@@ -1,0 +1,35 @@
+
+#home{
+    height: 78vh;
+}
+
+.card-img-me{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    border: solid 2px rgb(41, 40, 40) !important;
+    
+}
+.flex-container {
+    display: flex;
+    align-items: center; /* Pour centrer verticalement les éléments */
+}
+.my-name{
+    margin-left: 50px !important;
+}
+.card-body-me{
+    padding-left: 0px !important;
+}
+.my-card{
+    border: 0 !important;
+}
+.img-caroseul-style-1{
+    border-radius: 300px 12px 300px 15px !important;
+}
+.img-caroseul-style-2{
+    border-radius:70% 30% 30% 70% / 60% 40% 60% 40%
+}
+.img-caroseul-style-3{
+    border-radius: 200px 12px 200px 15px !important;
+}
+@import url('./../../components/annimations/AnotherAnimation.css');
