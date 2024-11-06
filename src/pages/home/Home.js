@@ -44,7 +44,7 @@ const Home = () => {
                                 </Card.Body>
 
                                 <Card.Footer>
-                                    <div className='d-flex'><FaHandPointRight className='text-primary mt-1' /> &nbsp; &nbsp;<NavLink href={`${process.env.PUBLIC_URL}/files/mon_cv.pdf`} className='text-primary' download="cv.pdf"> Télécharger mon CV ici </NavLink></div>
+                                    <div className='d-flex'><FaHandPointRight className='text-primary mt-1' /> &nbsp; &nbsp;<NavLink href={`${process.env.PUBLIC_URL}/files/cv_rabemananjara_original.pdf`} className='text-primary' download="cv.pdf"> Télécharger mon CV ici </NavLink></div>
                                 </Card.Footer>
                             </Card.Header>
                         </Card>

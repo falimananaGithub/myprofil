@@ -39,7 +39,8 @@ const FormText = () => {
                 from_name: name,  // name's sender
                 from_email: email, //mail's sender
                 to_name: 'Stephan',  // name's recepient
-                to_email: 'rabemananjarafalimananastephan@getMaxListeners.com',  // mail's recipient
+                to_email: 'rabemananjarafalimananastephan@gmail.com',  // mail's recipient
+                reply_to: email,
                 message: message  // message from sender
 
             },

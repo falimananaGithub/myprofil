@@ -20,7 +20,12 @@ const CardPortfolio = (props) => {
                 </Card.Body>
 
                 <Card.Footer>
-                    <div className='d-flex'><FaHandPointRight className='text-primary mt-1' /> &nbsp; &nbsp;<NavLink href="#" className='text-primary'> Voir le projet </NavLink></div>
+                    <div className='d-flex'>
+                        <FaHandPointRight className='text-primary mt-1' /> &nbsp; &nbsp;
+                        {props.gitUrl != '' ?
+                            (<NavLink href={props.gitUrl} className='text-primary'> Voir le projet </NavLink>)
+                            : (<p className='text-warning'> Projet privé </p>)}
+                    </div>
                 </Card.Footer>
             </Card.Header>
         </Card>
