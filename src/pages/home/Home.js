@@ -32,12 +32,12 @@ const Home = () => {
                                 </Card.Title>
 
                                 <Card.Body>
-                                    <div className=''>
-                                        <div><strong><BsTelephoneFill className='text-primary' /> :</strong> <label> +261 34 25 419 37</label></div>
+                                    <div className='contact-info' style={{ wordBreak: 'break-word' }}>
+                                        <div><strong><BsTelephoneFill className='text-primary' /> :</strong> <span> +261 34 25 419 37</span></div>
                                         <hr />
-                                        <div> <strong ><IoIosMail className='text-primary' /> : </strong><label> rabemananjarafalimananastephan@gmail.com</label></div>
+                                        <div> <strong ><IoIosMail className='text-primary' /> : </strong><span> rabemananjarafalimananastephan@gmail.com</span></div>
                                         <hr />
-                                        <div><strong><FaLocationDot className='text-primary' /> : </strong><label> Cité Ambohipo bloc-34 </label></div>
+                                        <div><strong><FaLocationDot className='text-primary' /> : </strong><span> Cité Ambohipo bloc-34 </span></div>
 
                                     </div>
 
