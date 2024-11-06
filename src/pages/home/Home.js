@@ -28,14 +28,14 @@ const Home = () => {
                             </div>
                             <Card.Header className='mt-2'>
                                 <Card.Title>
-                                    <label>Information personnel</label>
+                                    <label>Informations personnel</label>
                                 </Card.Title>
 
                                 <Card.Body>
                                     <div className='contact-info' style={{ wordBreak: 'break-word' }}>
                                         <div><strong><BsTelephoneFill className='text-primary' /> :</strong> <span> +261 34 25 419 37</span></div>
                                         <hr />
-                                        <div> <strong ><IoIosMail className='text-primary' /> : </strong><span> rabemananjarafalimananastephan@gmail.com</span></div>
+                                        <div><span>  <strong ><IoIosMail className='text-primary' /> : </strong> rabemananjarafalimananastephan@gmail.com</span></div>
                                         <hr />
                                         <div><strong><FaLocationDot className='text-primary' /> : </strong><span> Cité Ambohipo bloc-34 </span></div>
 
