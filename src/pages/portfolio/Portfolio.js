@@ -33,7 +33,7 @@ const Portfolio = () => {
             description: "Grâce à ce mini-projet, je découvert les notions de base flutter ansi que le langage dart ",
             framework: "Flutter",
             url_image: "flutter.png",
-            url_git: "https://github.com/falimananaGithub/flutterProject",
+            url_git: "",
             url_site: ""
 
         },
