@@ -39,8 +39,9 @@ const Home = () => {
                                         </div>
                                         <hr />
                                         <div style={{ display: 'flex', alignItems: 'center' }}>
-                                            <IoIosMail className='text-primary' /><span style={{ marginLeft: '5px' }}>
-                                                : rabemananjarafalimananastephan@gmail.com</span>
+
+                                            <strong><IoIosMail className='text-primary' /> :</strong>
+                                            <span style={{ marginLeft: '5px' }}>rabemananjarafalimananastephan@gmail.com</span>
                                         </div>
                                         <hr />
                                         <div>
