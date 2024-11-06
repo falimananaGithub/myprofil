@@ -33,11 +33,20 @@ const Home = () => {
 
                                 <Card.Body>
                                     <div className='contact-info' style={{ wordBreak: 'break-word' }}>
-                                        <div><strong><BsTelephoneFill className='text-primary' /> :</strong> <span> +261 34 25 419 37</span></div>
+                                        <div>
+                                            <strong><BsTelephoneFill className='text-primary' />
+                                                :</strong> <span> +261 34 25 419 37</span>
+                                        </div>
                                         <hr />
-                                        <div><span> <IoIosMail className='text-primary' /> : rabemananjarafalimananastephan@gmail.com</span></div>
+                                        <div style={{ display: 'flex', alignItems: 'center' }}>
+                                            <IoIosMail className='text-primary' /><span style={{ marginLeft: '5px' }}>
+                                                : rabemananjarafalimananastephan@gmail.com</span>
+                                        </div>
                                         <hr />
-                                        <div><strong><FaLocationDot className='text-primary' /> : </strong><span> Cité Ambohipo bloc-34 </span></div>
+                                        <div>
+                                            <strong><FaLocationDot className='text-primary' /> : </strong>
+                                            <span> Cité Ambohipo bloc-34 </span>
+                                        </div>
 
                                     </div>
 
