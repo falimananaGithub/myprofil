@@ -35,7 +35,7 @@ const Home = () => {
                                     <div className='contact-info' style={{ wordBreak: 'break-word' }}>
                                         <div><strong><BsTelephoneFill className='text-primary' /> :</strong> <span> +261 34 25 419 37</span></div>
                                         <hr />
-                                        <div><span>  <strong ><IoIosMail className='text-primary' /> : </strong> rabemananjarafalimananastephan@gmail.com</span></div>
+                                        <div><span> <IoIosMail className='text-primary' /> : rabemananjarafalimananastephan@gmail.com</span></div>
                                         <hr />
                                         <div><strong><FaLocationDot className='text-primary' /> : </strong><span> Cité Ambohipo bloc-34 </span></div>
 
